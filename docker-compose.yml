@@ -30,7 +30,7 @@ services:
 
   nginx:
     build:
-      context: .
+      context: ./nginx
       dockerfile: Dockerfile.nginx
     container_name: django_practise_nginx
     ports:
